@@ -1,4 +1,3 @@
-import keyboard
 
 print("Internship")
 x = int(input("Enter you number : "))
