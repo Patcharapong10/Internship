@@ -15,7 +15,7 @@ for i in range(x) :
 word.sort(key=lambda item: (-len(item), item))
 #word.sort(reverse=True)
 for j in word:
-    print(i)
+    print(j)
     #print(letter)
 print(word)
 #print("Hello : " + letter)
