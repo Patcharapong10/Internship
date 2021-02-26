@@ -15,10 +15,10 @@ while True :
     if numf > 1:
         for i in [10,100,1000]:
             if(checkprime(int(numf*i))):
-                print("is prime")
+                print("TRUE")
                 exit()
             else:
-                print("is not prime")
+                print("FALSE")
             
-    elif numf == 1 : print("is prime")
+    elif numf == 1 : print("TRUE")
     else : exit()
